@@ -73,6 +73,20 @@ input{
     cursor: text;
     outline: none;
 }
+@media  screen and (max-width:299px) {
+    .mid{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        gap: 1rem;
+    }
+    input{
+        border: 1px solid black;
+        border-radius: 15px;
+
+    }
+}
 button{
     width: 10rem;
     padding: 12px 30px;
